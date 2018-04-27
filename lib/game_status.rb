@@ -40,6 +40,6 @@ def winner(board)
    return "X"
  elsif WIN_COMBINATIONS.find{|i| i == ["O", "O", "O"]}
    return "O"
- end 
- end 
+ end
+ end
  end
