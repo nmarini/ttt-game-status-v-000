@@ -40,4 +40,3 @@ def winner(board)
    return WIN_COMBINATIONS.first
  end
  end
-
