@@ -26,3 +26,4 @@ end
 def full?(board)
   board.none?{|i|i != "" || i ! = " " || i != nil}
 end
+end
