@@ -37,3 +37,5 @@ end
 
 def winner(board)
   won?(board).detect{|i| "X" || "O"}
+end
+end
