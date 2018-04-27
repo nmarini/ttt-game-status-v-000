@@ -36,7 +36,7 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board) = winner
-  winner.find{|i| "X" || "O"}
-end
+  if winning_combo = won?(board)
+    board[winning_combo.first]
+  end
 end
