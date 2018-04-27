@@ -36,9 +36,8 @@ def over?(board)
 end
 
 def winner(board)
- if WIN_COMBINATIONS.find{|i| i == ["X", "X", "X"]}
-   return "X"
- elsif WIN_COMBINATIONS.find{|i| i == ["O", "O", "O"]}
-   return "O"
+ if WIN_COMBINATIONS == won?(board)
+   return WIN_COMBINATIONS.first
  end
  end
+
