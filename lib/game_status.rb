@@ -39,3 +39,4 @@ def winner(board)
   won?(board) = winner
   winner.find{|i| "X" || "O"}
 end
+end
