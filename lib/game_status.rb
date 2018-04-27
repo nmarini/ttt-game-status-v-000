@@ -36,9 +36,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == ["X", "X", "X"]
-    won?(board).first
-elsif won?(board) == ["O", "O", "O"]
-  won?(board).first
-    end
+  if won?(board) != nil
+    return won?(board[0])
 end
+end 
