@@ -37,6 +37,6 @@ end
 
 def winner(board)
  if WIN_COMBINATIONS == won?(board)
-    WIN_COMBINATIONS.first
+    return WIN_COMBINATIONS.first
  end
  end
