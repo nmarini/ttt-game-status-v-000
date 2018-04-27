@@ -36,5 +36,5 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board).detect{|i| "X" || "O"}
+  won?(board).find{|i| "X" || "O"}
 end
