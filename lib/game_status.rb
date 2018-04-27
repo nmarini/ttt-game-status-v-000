@@ -37,8 +37,8 @@ end
 
 def winner(board)
   if won?(board) == ["X", "X", "X"]
-    won?(board).first
+    return won?(board).first
 elsif won?(board) == ["O", "O", "O"]
-  won?(board).first
+  return won?(board).first
     end
 end
