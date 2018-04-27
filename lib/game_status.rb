@@ -36,9 +36,10 @@ def over?(board)
 end
 
 def winner(board)
- if won?(board[0]) == "X"
-   return "X"
- elsif won?(board[0]) == "O"
-   return "O"
+ if won?(board) == ["X","X","X"]
+   puts "X"
+ elsif won?(board[0]) == ["O","O","O"]
+   puts "O"
  end
  end
+ 
